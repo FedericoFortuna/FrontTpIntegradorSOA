@@ -12,6 +12,7 @@
   <form>
     <label for="combobox">Operacion:</label>
     <select class="form-control" name="combobox" id="combobox">
+      <option value="">Seleccione una opción</option>
       <option value="TEXT_TRANSFORM">Transformar texto</option>
       <option value="HASH_PW">Encriptar password</option>
       <option value="BRAILE">Traducir a braille</option>
@@ -40,6 +41,7 @@
     <label for="inputResult">Resultado:</label>
     <input type="text" class="form-control" name="inputResult" id="inputResult" disabled>
     <br>
+    
     <button type="submit" class="btn btn-primary" id="submit">Procesar</button>
     <button type="button" class="btn btn-primary" id="getResult">Obtener resultado</button>
   </form>
