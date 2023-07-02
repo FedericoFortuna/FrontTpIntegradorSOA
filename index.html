@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Combobox, Input Text and Button</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdnjsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="styles.css" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+  <form>
+    <label for="combobox">Operacion:</label>
+    <select class="form-control" name="combobox" id="combobox">
+      <option value="1">Calcular maximo</option>
+      <option value="2">Transformar texto</option>
+      <option value="3">Encriptar password</option>
+    </select>
+    <br>
+    <label for="inputText">Input Text:</label>
+    <input type="text" class="form-control" name="inputText" id="inputText">
+    <br>
+    <label for="inputResult">Result:</label>
+    <input type="text" class="form-control" name="inputResult" id="inputResult" disabled>
+    <br>
+    <button type="submit" class="btn btn-primary" id="submit">Procesar</button>
+    <button type="button" class="btn btn-primary" id="getResult">Obtener resultado</button>
+  </form>
+</div>
+</body>
+</html>
